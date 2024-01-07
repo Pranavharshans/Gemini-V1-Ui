@@ -23,5 +23,5 @@ def main():
             formatted_text = format_text(response.text)
             st.text(formatted_text)
 
-# Run the main function
+
 main()

@@ -2,7 +2,7 @@ import textwrap
 import streamlit as st
 import google.generativeai as genai
 
-# INSERT API KEY HERE
+# INSERT GEMINI API KEY HERE
 genai.configure(api_key='')
 
 def format_text(text):

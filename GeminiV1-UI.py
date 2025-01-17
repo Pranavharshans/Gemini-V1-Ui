@@ -16,7 +16,7 @@ def main():
     user_input = st.text_input("Enter a prompt:")
     
     if st.button("Generate"):
-        if user_input.upper() == 'END GEMINI':
+        if user_input.upper() == 'END GEMINI NOW':
             st.text("Exiting Gemini...")
         else:
             response = model.generate_content(user_input)
